@@ -1,0 +1,1 @@
+document.write('<img src="http://bannerfarm.ace.advertising.com/bannerfarm/279/CSG_TWW_MKT_20080513_01 _photo_300x250.jpg" border="0">');document.write('');

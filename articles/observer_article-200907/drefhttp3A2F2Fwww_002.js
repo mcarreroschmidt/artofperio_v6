@@ -1,0 +1,1 @@
+document.write("<img src=\"http://bannerfarm.ace.advertising.com/bannerfarm/279/CSG_TWW_MKT_20080513_01 _photo_160x600.jpg\" border=\"0\">");

@@ -1,0 +1,25 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.artofperio.com
+AuthUserFile /home/artofper/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/artofper/public_html/_vti_pvt/service.grp
+
+AddHandler php5-script .html
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([^/\.]+)?$ /artofperio_v6/index.html?city=$1 [L]
+</IfModule>
