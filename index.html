@@ -1,0 +1,56 @@
+<? 
+$thumb = 'no';
+$page = 'home';
+?>
+<? include "includes/template-top.php" ?>
+
+<? if($city){ ?>
+<h1>Dentistry and Periodontics in <?=$city?></h1>
+<p>If you've come to our site looking for <?=$city?>, dentists, periodontics, or oral medicine, please know that we take pride in serving <?=$city?>, and our offices are conveniently located for you. We look forward to meeting you and keeping you smiling beautifully!</p>
+<? } ?>
+<h<?=$city? "2" : "1" ?>>Welcome to Art of Perio</h<?=$city? "2" : "1" ?>>
+<div id="home-pic">
+	<div><img src="images/pic-goteiner.jpg" width="300" height="290" alt="David Goteiner, DDS Periodontics" /></div>
+	<div id="cred"><b>David Goteiner, DDS<br /> Periodontics</b> (NJ specialty permit #2218)</div>
+</div>
+
+<p>All of us extend a warm welcome to those visiting our web site.  We want to share information about better oral health and beautiful smiles.  We would like to be your source for news and facts.</p>
+<img src="images/nj-mag-cover3.jpg" style="float:right;padding:0 0 0 1em;" alt="NJ Magazine" />
+<div Xid="home-quote">
+	<p><q>Our goal is to give our patients the best care in a comfortable, relaxed atmosphere,</q> says Dr. Goteiner. He specializes in prevention, diagnosis, and treatment of periodontal disease<?=$city? " in $city," : "" ?> and has advanced training in state-of-the-art dental implants and gum enhancement procedures. Among the most exciting new advancements in periodontics and dentistry is <b>laser periodontics</b>, or the use of lasers to treat your gums and gum disease. Dr. Goteiner specializes in laser periodontics and laser treatments<?=$city? " in $city" : "" ?>.</p>
+	<p>Patients state that Dr. Goteiner and his experienced staff take care of their needs and concerns with understanding and compassion. Dr. Goteiner is a clinical professor at UMDNJ and a Fellow of the American and International Colleges of Dentists. He lectures throughout the country to fellow professionals. An accomplished painter, he has had shows in the tristate area.</p>
+</div>
+<p>If there is something you don't see here and need to know about, please write, call or e-mail us with your questions and concerns.  We are here to serve you.</p>
+<p>If you do choose this office, we will do everything we can to make you comfortable and provide the best care possible.  We are committed to excellence in an atmosphere that is comfortable and relaxed.</p>
+<div class="topshadow"></div>
+<div id="home_callouts-container"><div id="home_callouts" class="clearfix">
+	<fieldset id="home_callout1">
+		<img style="float:right;margin-left:10px;"  src="images/lanap-thumb.gif" alt="Laser Assisted New Attachment Procedure (LANAP)" />
+		<h3>Introducing Laser Periodontics<?=$city? " in $city" : "" ?></h3> <div>Laser Assisted New Attachment Procedure is an amazing break-through in periodontal treatments that effectively stops degenerative gum disease and promotes gum regeneration<?=$city? " in $city" : "" ?>.</div>
+		<p align="right"><b><a href="solutions-lanap.html">Learn more >></a></b></p>
+	</fieldset>
+	<fieldset>
+		<img style="float:right;"  src="images/diem_faces-thumb.jpg" alt="DIEM Dental Implant" />
+		<h3><?=$city? "$city " : "" ?>Teeth in a Day&trade;</h3> <div>Find out about a dental implant procedure that can have you smiling again with beautiful, natural-looking, non-removable teeth in just one visit! </div>
+		<p align="right"><b><a href="solutions-teeth_in_a_day.html">Learn more >></a></b></p>
+	</fieldset>
+	<fieldset class="last">
+<ul id="slider1">
+	<li>
+		<h3>Gum Disease & Health<?=$city? " in $city" : "" ?></h3>
+		<div>See Whoopie Goldberg speak about her personal experience with gum disease and how it can affect your life and health.</div>
+		<p align="right"><b><a class="video" href="http://www.youtube.com/embed/XLDL8NhNxWA">See video >></a></b></p>
+	</li><li>
+		<h3>Certificate of Appreciation</h3>
+		<div>UMDNJ has presented a Certificate of Appreciation to Dr. Goteiner in acknowledgement for his 35 years of outstanding and dedicated service.</div>
+		<p align="right"><b><a title="UMDNJ Presents Certificate of Apprecation to Dr. Goteiner: 35 Years" class="gallery" href="images/goteiner_certificate.jpg">See the Certificate >></a></b></p>
+	</li><li>
+		<h3>Salivary Diagnostic Tests<?=$city? " in $city" : "" ?></h3>
+		<div>Innovative salivary diagnostic tests from OralDNA<sup>&reg;</sup> Labs are fundamental elements of a patient's wellness plan.</div>
+		<p align="right"><b><a href="patients.html">Find out more >></a></b></p>
+	</li>
+</ul>
+	</fieldset>
+</div></div>
+
+<? include "includes/template-btm.php" ?>
